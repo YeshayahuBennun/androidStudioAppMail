@@ -9,40 +9,25 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/margin_eight"
         android:autofillHints="title"
         android:hint="@string/str_title"
-        android:inputType="text"
-        android:minHeight="48dp"
-        android:textColor="@android:color/black"
-        android:textColorHint="@android:color/black"
-        android:textSize="@dimen/font_twenty" />
+        style="@style/edit_text_styling" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/margin_eight"
-        android:hint="@string/str_to"
         android:importantForAutofill="no"
-        android:inputType="text"
-        android:textColor="@android:color/black"
-        android:textColorHint="@android:color/black"
-        android:textSize="@dimen/font_twenty"
-        android:minHeight="48dp" />
+        android:hint="@string/str_to"
+        style="@style/edit_text_styling"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
-        android:layout_margin="@dimen/margin_eight"
         android:hint="@string/str_containing_text"
         android:gravity="top"
+        android:layout_weight="1"
         android:importantForAutofill="no"
-        android:inputType="text"
-        android:textColor="@android:color/black"
-        android:textColorHint="@android:color/black"
-        android:textSize="@dimen/font_twenty"
-        android:minHeight="48dp" />
+        style="@style/edit_text_styling" />
 
     <Button
         android:layout_width="match_parent"
